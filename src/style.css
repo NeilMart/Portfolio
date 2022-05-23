@@ -1,1 +1,38 @@
+.main-header {
+  padding: 20px;
+  text-align: left;
+  background: #455a64;
+  font-size: 30px;
+}
 
+.page-title {
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar {
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  padding-top: 20px;
+  padding-left: 20px;
+  background: #718792;
+}
+
+.sidebar-link {
+  display: block;
+  text-decoration: none;
+  padding-bottom: 10px;
+  font-size: 20px;
+  color: black;
+}
+
+.sidebar-link:hover {
+  color: white;
+}
+
+.pdf-viewer {
+  float: right;
+  padding-right: 40px;
+  padding-top: 40px;
+}
