@@ -41,9 +41,31 @@
     grid-template-columns: 0.25fr 1fr;
     grid-gap: 20px;
   }
+
+  div.phone-viewer {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 480px) {
+  div.pdf-viewer {
+    display: none;
+  }
+
+  .phone-viewer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .phone-link {
+    text-decoration: none;
+  }
+
+  .phone-link:hover {
+    color: blue;
+  }
+
   .main-header {
     padding: 20px;
     text-align: left;
