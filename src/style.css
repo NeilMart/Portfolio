@@ -48,7 +48,7 @@
     padding: 20px;
     text-align: left;
     background: #455a64;
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .page-title {
@@ -58,9 +58,7 @@
 
   .sidebar {
     background: #718792;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-bottom: 3px;
+    padding: 20px;
   }
 
   .sidebar-link {
@@ -82,7 +80,11 @@
 
   .grid-container {
     display: grid;
-    height: 100vh;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 0.25fr 1fr;
+  }
+
+  .grid-container-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 }
